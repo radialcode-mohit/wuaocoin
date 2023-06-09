@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap%22%22");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap%22%22");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +18,7 @@
   --clr-dark: #32352c;
   --clr-white: #ffffff;
   --clr-black: #000000;
+
   --clr-linear-gold: linear-gradient(0deg, #efb93b, #efb93b), #d9d9d9;
   --clr-linear-red: linear-gradient(0deg, #e0480a, #e0480a),
     linear-gradient(0deg, #efb93b 0.02%, #eba43b 53.72%, #e9973b 100.15%),
@@ -42,17 +41,17 @@
 .clr_black {
   color: var(--clr-black);
 }
-.clr_linear_gold {
-  font-variant: var(--clr-linear-gold) !important;
+.bg_linear_gold {
+  background: var(--clr-linear-gold) !important;
 }
-.clr_linear_red {
-  font-variant: var(--clr-linear-red) !important;
+.bg_linear_red {
+  background: var(--clr-linear-red) !important;
 }
-.clr_linear_purple {
-  font-variant: var(--clr-linear-purple) !important;
+.bg_linear_purple {
+  background: var(--clr-linear-purple) !important;
 }
-.clr_linear_pink {
-  font-variant: var(--clr-linear-pink) !important;
+.bg_linear_pink {
+  background: var(--clr-linear-pink) !important;
 }
 .clr_blue {
   color: var(--clr-blue);
@@ -61,7 +60,7 @@
   color: var(--clr-darkblue);
 }
 .ff_montserrat {
-  font-family: "Montserrat" !important;
+  font-family: "Montserrat", sans-serif;
 }
 .ff_inter {
   font-size: "inter" !important;
@@ -89,6 +88,63 @@
 }
 .fw_900 {
   font-weight: 900 !important;
+}
+.opac_07 {
+  opacity: 0.7;
+}
+.opac_08 {
+  opacity: 0.8;
+}
+.opac_09 {
+  opacity: 0.9;
+}
+.footericon_h_w {
+  max-width: 262.51px;
+  max-height: 78px;
+}
+.linear_bg_orange_footer {
+  background: linear-gradient(
+    180deg,
+    #ffba3b -9.01%,
+    #ffa53b 43.37%,
+    #ff983b 89.55%
+  );
+}
+.h_w_footer_linear {
+  width: 29.86px;
+  height: 29.86px;
+}
+
+.border_radius_50 {
+  border-radius: 50px;
+}
+.ms_12 {
+  margin-left: 12px;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.opac_03 {
+  opacity: 0.3;
+}
+.bordertop_1px_solid_f9f9f9 {
+  border-top: 1px solid #9f9f9f;
+}
+.transition {
+  transition: all 0.3s linear;
+}
+.socialicons_hover:hover {
+  transform: translateY(-8px);
+}
+.max_w_700px {
+  max-width: 700px;
+}
+.roadmap_img_h_w {
+  max-width: 592.73px;
+  max-height: 269px;
+}
+.border_radius_15 {
+  border-radius: 15px;
 }
 @media (min-width: 1400px) {
   .custom_container {

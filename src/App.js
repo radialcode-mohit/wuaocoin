@@ -1,7 +1,16 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer";
+import Roadmap from "./components/Roadmap";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Footer />
+      <Roadmap />
+    </>
+  );
 }
 
 export default App;
