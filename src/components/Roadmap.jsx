@@ -32,24 +32,54 @@ const Roadmap = () => {
       </Container>
       <section>
         {" "}
-        <Slider className="w-75 mx-auto" {...settings}>
-          <div className="bg_linear_gold border_radius_15">
-            <h3 className="ff_montserrat fw-bold clr_dark fs_5xl mb-3">01</h3>
+        <Slider className="w_95_per mx-auto roadmapslider" {...settings}>
+          <div className="bg_linear_gold border_radius_15 roadmap_cards_padding h-100">
+            <h3 className="ff_montserrat fw-bold clr_white fs_5xl mb-3  opac_05">
+              01
+            </h3>
+            <p className="ff_montserrat fw-bold clr_white fs_xl mb-0">
+              Organizational <br /> concept <br /> (creations)
+            </p>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className="bg_linear_red border_radius_15 roadmap_cards_padding h-100">
+            <h3 className="ff_montserrat fw-bold clr_white fs_5xl mb-3  opac_05">
+              02
+            </h3>
+            <p className="ff_montserrat fw-bold clr_white fs_xl mb-0 ps-3">
+              Directional Process (Actions)
+            </p>
           </div>
-          <div>
-            <h3>3</h3>
+          <div className="bg_blue border_radius_15 roadmap_cards_padding h-100">
+            <h3 className="ff_montserrat fw-bold clr_white fs_5xl mb-3  opac_05">
+              03
+            </h3>
+            <p className="ff_montserrat fw-bold clr_white fs_xl mb-0 ps-3">
+              Operational Development (technical team)
+            </p>
           </div>
-          <div>
-            <h3>4</h3>
+          <div className="bg_darkblue border_radius_15 roadmap_cards_padding h-100">
+            <h3 className="ff_montserrat fw-bold clr_white fs_5xl mb-3  opac_05">
+              04
+            </h3>
+            <p className="ff_montserrat fw-bold clr_white fs_xl mb-0 ps-3">
+              Strategic Opportunities (alliances)
+            </p>
           </div>
-          <div>
-            <h3>5</h3>
+          <div className="bg_linear_purple border_radius_15 roadmap_cards_padding h-100">
+            <h3 className="ff_montserrat fw-bold clr_white fs_5xl mb-3  opac_05">
+              05
+            </h3>
+            <p className="ff_montserrat fw-bold clr_white fs_xl mb-0 ps-3">
+              Stakeholders (benefits)
+            </p>
           </div>
-          <div>
-            <h3>6</h3>
+          <div className="bg_linear_pink border_radius_15 roadmap_cards_padding h-100">
+            <h3 className="ff_montserrat fw-bold clr_white fs_5xl mb-3  opac_05">
+              06
+            </h3>
+            <p className="ff_montserrat fw-bold clr_white fs_xl mb-0 ps-3">
+              Human Identity (social contribution)
+            </p>
           </div>
         </Slider>
       </section>

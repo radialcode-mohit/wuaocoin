@@ -18,7 +18,6 @@
   --clr-dark: #32352c;
   --clr-white: #ffffff;
   --clr-black: #000000;
-
   --clr-linear-gold: linear-gradient(0deg, #efb93b, #efb93b), #d9d9d9;
   --clr-linear-red: linear-gradient(0deg, #e0480a, #e0480a),
     linear-gradient(0deg, #efb93b 0.02%, #eba43b 53.72%, #e9973b 100.15%),
@@ -29,8 +28,8 @@
     linear-gradient(90deg, #2d367d -0.02%, #384cb1 99.91%);
 }
 /* colors  */
-.color_white {
-  color: var(--clr-white);
+.clr_white {
+  color: var(--clr-white) !important;
 }
 .bg_white {
   background-color: var(--clr-white) !important;
@@ -52,6 +51,12 @@
 }
 .bg_linear_pink {
   background: var(--clr-linear-pink) !important;
+}
+.bg_blue {
+  background-color: var(--clr-blue) !important;
+}
+.bg_darkblue {
+  background-color: var(--clr-darkblue) !important;
 }
 .clr_blue {
   color: var(--clr-blue);
@@ -97,6 +102,9 @@
 }
 .opac_09 {
   opacity: 0.9;
+}
+.opac_05 {
+  opacity: 0.5;
 }
 .footericon_h_w {
   max-width: 262.51px;
@@ -145,6 +153,150 @@
 }
 .border_radius_15 {
   border-radius: 15px;
+}
+.roadmap_cards_padding {
+  padding: 8.39px 11.18px 45.05px 11.18px;
+}
+.w_95_per {
+  width: 95%;
+}
+.roadmapslider .slick-track {
+  display: flex !important;
+}
+
+.roadmapslider .slick-slide div {
+  height: 100% !important;
+}
+.roadmapslider .slick-slide {
+  margin-left: 1px;
+}
+.roadmapslider .slick-slide {
+  height: inherit !important;
+}
+.secnd_sec_mainlogo_h_w {
+  max-width: 228px;
+  max-height: 229px;
+}
+.max_h_w_522 {
+  max-width: 300px;
+  max-height: 300px;
+}
+.w_58_per {
+  width: 58%;
+}
+.w_48_per {
+  width: 48%;
+}
+.transform_tranlate_second_sec_img {
+  transform: translate(-3px, 7px);
+}
+.z_index_minus_1 {
+  z-index: -1;
+}
+.orange_card_secnd_sec {
+  left: 20%;
+  top: -64%;
+}
+.red_card_secnd_sec {
+  top: -38%;
+  right: -1%;
+}
+.blue_card_secnd_sec {
+  left: -14px;
+  top: -35%;
+}
+.purple_card_secnd_sec {
+  bottom: -79%;
+  left: 0%;
+}
+.pink_card_secnd_sec {
+  bottom: -78%;
+  left: 50%;
+}
+.hover_translate_y_minus_10_per:hover {
+  transform: translateY(-10%);
+}
+.hover_translate_x_10_per:hover {
+  transform: translateX(10%);
+}
+.hover_translate_x_minus_10_per:hover {
+  transform: translateX(-10%);
+}
+.hover_translate_10_per:hover {
+  transform: translate(10%, 10%);
+}
+.hover_translate_purple:hover {
+  transform: translate(-10%, 10%);
+}
+.z_3 {
+  z-index: 3 !important;
+}
+.second_sec_img_h_w {
+  max-height: 707px;
+  height: 100%;
+  width: 100%;
+  max-width: 550px;
+}
+@media (max-width: 768px) {
+  .w_44_per_xsm {
+    width: 44%;
+  }
+  .w_36_per_xsm {
+    width: 36%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w_100_sm {
+    width: 100%;
+  }
+  .orange_card_secnd_sec {
+    left: 20%;
+    top: -67%;
+  }
+  .red_card_secnd_sec {
+    top: -39%;
+    right: -3%;
+  }
+  .blue_card_secnd_sec {
+    left: -27px;
+    top: -38%;
+  }
+  .purple_card_secnd_sec {
+    bottom: -79%;
+    left: 0%;
+  }
+  .pink_card_secnd_sec {
+    bottom: -78%;
+    left: 52%;
+  }
+}
+@media (min-width: 768px) {
+  .orange_card_secnd_sec {
+    left: 20%;
+    top: -71%;
+  }
+  .red_card_secnd_sec {
+    top: -44%;
+    right: -1%;
+  }
+  .blue_card_secnd_sec {
+    left: -14px;
+    top: -43%;
+  }
+  .purple_card_secnd_sec {
+    bottom: -79%;
+    left: 0%;
+  }
+  .pink_card_secnd_sec {
+    bottom: -78%;
+    left: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .z_index_3_lg {
+    z-index: 3;
+  }
 }
 @media (min-width: 1400px) {
   .custom_container {
